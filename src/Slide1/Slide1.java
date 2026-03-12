@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class Slide1 {
 	public static void main(String[] args) {
-        System.out.println("33 PS48509 Phạm Minh Triết");
+        System.out.println("17 PS48474 Đinh Đức Hoàng");
 //       Xe xe = new Xe();
 //        xe.setHangXe("Toyota");
 //        xe.setNamSanXuat(2026);
