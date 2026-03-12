@@ -2,26 +2,32 @@ package Slide1;
 
 public class Xe {
 	private String hangXe;
-    private int NamSanXuat;
+    private int namSanXuat;
 
     public String getHangXe() {
-        return hangXe;
+        return this.hangXe;
+    }
+
+    public int getNamSanXuat() {
+        return this.namSanXuat;
     }
 
     public void setHangXe(String hangXe) {
         this.hangXe = hangXe;
     }
 
-    public int getNamSanXuat() {
-        return NamSanXuat;
-    }
-
     public void setNamSanXuat(int namSanXuat) {
-        NamSanXuat = namSanXuat;
+        this.namSanXuat = namSanXuat;
     }
 
     @Override
     public String toString() {
-        return "Xe [hangXe=" + hangXe + ", namSanXuat=" + NamSanXuat + "]";
+        return "xe{" + "hangXe=" + hangXe + ", namSanXuat=" + namSanXuat + '}';
     }
+
+   public Xe(String hangXe, int namSanXuat) {
+        this.hangXe = hangXe;
+        this.namSanXuat = namSanXuat;
+    }
+    public Xe (){}
 }
